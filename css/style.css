@@ -843,7 +843,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) and (orientation: landscape) {
   .header__search {
-    margin: 15px 0;
+    margin: 2px 0;
+    padding: 10px;
   }
   .main {
     -webkit-transform: translate(0, -70%);
@@ -851,7 +852,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .main__title {
     padding: 0px 0px 10px 0px;
-    font-size: 36px;
+    font-size: 26px;
     max-width: none;
   }
   .main__titlespan {
@@ -859,7 +860,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 3px solid #ffcc00;
   }
   .main__subtitle {
-    font-size: 18px;
+    font-size: 14px;
     padding: 0px 0px 15px 0px;
   }
   .main-how {
@@ -869,14 +870,28 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 18px;
   }
   .line-top {
-    padding: 12px 0;
+    padding: 10px 0;
+  }
+  .line-top__btn {
+    font-size: 12px;
+  }
+  .droppingout-menu__link {
+    font-size: 12px;
   }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
+  .header__search {
+    margin: 2px 0;
+    padding: 10px;
+  }
+  .main {
+    -webkit-transform: translate(0, -70%);
+            transform: translate(0, -70%);
+  }
   .main__title {
     padding: 0px 0px 10px 0px;
-    font-size: 36px;
+    font-size: 26px;
     max-width: none;
   }
   .main__titlespan {
@@ -884,7 +899,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 3px solid #ffcc00;
   }
   .main__subtitle {
-    font-size: 18px;
+    font-size: 14px;
     padding: 0px 0px 15px 0px;
   }
   .main-how {
@@ -894,7 +909,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 18px;
   }
   .line-top {
-    padding: 12px 0;
+    padding: 10px 0;
+  }
+  .line-top__btn {
+    font-size: 12px;
+  }
+  .droppingout-menu__link {
+    font-size: 12px;
   }
 }
 
@@ -965,9 +986,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 452px) and (orientation: landscape) {
+  .header__search {
+    margin: 2px 0;
+    padding: 10px;
+  }
+  .main {
+    -webkit-transform: translate(0, -70%);
+            transform: translate(0, -70%);
+  }
   .main__title {
     padding: 0px 0px 10px 0px;
-    font-size: 36px;
+    font-size: 26px;
     max-width: none;
   }
   .main__titlespan {
@@ -975,7 +1004,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 3px solid #ffcc00;
   }
   .main__subtitle {
-    font-size: 18px;
+    font-size: 14px;
     padding: 0px 0px 15px 0px;
   }
   .main-how {
@@ -985,7 +1014,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 18px;
   }
   .line-top {
-    padding: 12px 0;
+    padding: 10px 0;
+  }
+  .line-top__btn {
+    font-size: 12px;
+  }
+  .droppingout-menu__link {
+    font-size: 12px;
   }
 }
 
