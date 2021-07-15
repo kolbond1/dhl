@@ -847,8 +847,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
   }
   .main {
-    -webkit-transform: translate(0, -70%);
-            transform: translate(0, -70%);
+    -webkit-transform: translate(0, -75%);
+            transform: translate(0, -75%);
   }
   .main__title {
     padding: 0px 0px 10px 0px;
